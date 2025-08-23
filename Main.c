@@ -1,3 +1,4 @@
+// Run once time:
 #ifndef _PI_UTILS_C_
 #define _PI_UTILS_C_
 
@@ -10,16 +11,16 @@
 // Main code:
 int main(void)
 {
-  // Variables:
-  #define PI_UTILS_VERSION "1.0.1"              // Pi Utils version variable.
-  #define MIN_PRECISION 0                       // Minimum precision variable.
+	// Variables:
+	#define PI_UTILS_VERSION "1.0.1"              // Pi Utils version variable.
+	#define MIN_PRECISION 0                       // Minimum precision variable.
 	#define MAX_PRECISION 18                      // Maximum precision variable.
-  signed char loop1 = 1;                        // Loop variable.
-  signed char pi_str_c[] = "Short/Approximate"; // Pi value in a string variable (capital letter in the start).
-  signed char pi_str[] = "short/approximate";   // Pi value in a string variable.
-  signed int precision = 2;                     // Precision variable.
-  long double pi_val = PI_S_L;                  // Pi value in a number variable.
-  long double option1;                          // Option variable.
+	signed char loop1 = 1;                        // Loop variable.
+	signed char pi_str_c[] = "Short/Approximate"; // Pi value in a string variable (capital letter in the start).
+	signed char pi_str[] = "short/approximate";   // Pi value in a string variable.
+	signed int precision = 2;                     // Precision variable.
+	long double pi_val = PI_S_L;                  // Pi value in a number variable.
+	long double option1;                          // Option variable.
 	long double val;                              // Value variable.
 
   // Main loop:
