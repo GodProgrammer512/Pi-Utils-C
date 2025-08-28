@@ -12,7 +12,7 @@
 int main(void)
 {
 	// Variables:
-	#define PI_UTILS_VERSION "1.0.1"              // Pi Utils version variable.
+	#define PI_UTILS_VERSION "1.0.2"              // Pi Utils version variable.
 	#define MIN_PRECISION 0                       // Minimum precision variable.
 	#define MAX_PRECISION 18                      // Maximum precision variable.
 	signed char loop1 = 1;                        // Loop variable.
@@ -22,6 +22,9 @@ int main(void)
 	long double pi_val = PI_S_L;                  // Pi value in a number variable.
 	long double option1;                          // Option variable.
 	long double val;                              // Value variable.
+
+	// Enable Virtual Terminal and UTF-8:
+	enable_vt_and_utf8();
 
   // Main loop:
   while(loop1 == 1)
